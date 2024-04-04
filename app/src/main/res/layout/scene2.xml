@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/head_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="My Childhood Favorite"/>
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintTop_toBottomOf="@+id/head_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/avatar"
+        android:layout_marginTop="10dp"
+        android:text="台北 —
+中国年度网络媒体论坛上个周末在云南昆明举行，希望媒体走好网上群众路线，透过人工智能（AI）等新技术赋能“融媒体”，说好中国故事。分析人士说，中国透过“中央厨房”式的融媒体得以快速制作并传播有利于它的讯息或假讯息到不同平台，影响公众认知，进而破坏民主；网上群众路线则是通过媒体的舆情监测和舆论引导，让中共多了一双手强化威权治理。" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
