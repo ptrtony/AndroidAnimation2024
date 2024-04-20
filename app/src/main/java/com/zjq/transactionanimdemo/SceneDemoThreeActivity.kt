@@ -1,6 +1,5 @@
 package com.zjq.transactionanimdemo
 
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -9,13 +8,9 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.transition.ChangeBounds
-import androidx.transition.ChangeTransform
-import androidx.transition.Fade
 import androidx.transition.Scene
-import androidx.transition.Transition
 import androidx.transition.TransitionManager
 import androidx.transition.TransitionSet
-import androidx.transition.Visibility
 
 class SceneDemoThreeActivity : AppCompatActivity() {
     private lateinit var avatar: ImageView
@@ -32,12 +27,12 @@ class SceneDemoThreeActivity : AppCompatActivity() {
         transition.ordering = TransitionSet.ORDERING_TOGETHER
         val changeAlpha = CustomChangeAlpha()
         changeAlpha.interpolator = LinearInterpolator()
-        changeAlpha.startDelay = 100
+        changeAlpha.startDelay = 0
         changeAlpha.duration = 3000
         changeAlpha.addTarget(R.id.avatar)
         val changeBounds = ChangeBounds()
         changeBounds.interpolator = LinearInterpolator()
-        changeBounds.startDelay = 100
+        changeBounds.startDelay = 0
         changeBounds.duration = 3000
         changeBounds.addTarget(R.id.avatar)
         transition.addTransition(changeAlpha)

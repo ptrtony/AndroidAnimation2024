@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TransactionAnimDemo"
         tools:targetApi="31">
         <activity
+            android:name=".SceneDemoFourActivity"
+            android:exported="false" />
+        <activity
             android:name=".SceneDemoThreeActivity"
             android:exported="false" />
         <activity

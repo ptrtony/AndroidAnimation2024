@@ -24,16 +24,16 @@
             android:onClick="onTransactionClickOne"/>
 
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="10dp"
-            android:background="#009688"
-            android:textColor="#ffffff"
-            android:textSize="18sp"
-            android:text="Transaction two"
-            android:onClick="onTransactionClickTwo"/>
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="#009688"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:textSize="18sp"-->
+<!--            android:text="Transaction two"-->
+<!--            android:onClick="onTransactionClickTwo"/>-->
 
         <Button
             android:layout_width="match_parent"
@@ -122,5 +122,16 @@
             android:textSize="18sp"
             android:text="Animation Eight"
             android:onClick="onAnimationEightClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:text="Animation Night"
+            android:onClick="onAnimationNightClick"/>
     </LinearLayout>
 </ScrollView>

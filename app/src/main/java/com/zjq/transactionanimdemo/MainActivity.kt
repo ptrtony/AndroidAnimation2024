@@ -15,9 +15,9 @@ class MainActivity : ComponentActivity() {
         startActivity(Intent(this, TransactionOneActivity::class.java))
     }
 
-    fun onTransactionClickTwo(view: View) {
-        startActivity(Intent(this, TransactionTwoActivity::class.java))
-    }
+//    fun onTransactionClickTwo(view: View) {
+//        startActivity(Intent(this, TransactionTwoActivity::class.java))
+//    }
 
     fun onAnimationClickOne(view: View) {
         startActivity(Intent(this, ComposeAnimationOneActivity::class.java))
@@ -49,5 +49,9 @@ class MainActivity : ComponentActivity() {
 
     fun onAnimationEightClick(view: View) {
         startActivity(Intent(this, SceneDemoThreeActivity::class.java))
+    }
+
+    fun onAnimationNightClick(view: View) {
+        startActivity(Intent(this, SceneDemoFourActivity::class.java))
     }
 }
