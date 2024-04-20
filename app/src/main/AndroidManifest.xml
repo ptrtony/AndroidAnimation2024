@@ -13,12 +13,14 @@
         android:theme="@style/Theme.TransactionAnimDemo"
         tools:targetApi="31">
         <activity
+            android:name=".SceneDemoThreeActivity"
+            android:exported="false" />
+        <activity
             android:name=".TransactionTwoActivity"
             android:exported="false" />
         <activity
             android:name=".TransactionOneActivity"
             android:exported="false" />
-
         <activity
             android:name=".ComposeAnimationOneActivity"
             android:exported="false" />
@@ -45,12 +47,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".SceneDemoOneActivity"
+        <activity
+            android:name=".SceneDemoOneActivity"
             android:exported="false" />
-
-        <activity android:name=".SceneDemoTwoActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".SceneDemoTwoActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

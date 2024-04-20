@@ -111,5 +111,16 @@
             android:textSize="18sp"
             android:text="Animation Seven"
             android:onClick="onAnimationClickSeven"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:text="Animation Eight"
+            android:onClick="onAnimationEightClick"/>
     </LinearLayout>
 </ScrollView>

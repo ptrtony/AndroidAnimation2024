@@ -46,4 +46,8 @@ class MainActivity : ComponentActivity() {
     fun onAnimationClickSeven(view: View) {
         startActivity(Intent(this, SceneDemoTwoActivity::class.java))
     }
+
+    fun onAnimationEightClick(view: View) {
+        startActivity(Intent(this, SceneDemoThreeActivity::class.java))
+    }
 }
